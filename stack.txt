@@ -1,0 +1,27 @@
+ <StackPanel Margin="0,60,0,0" >
+        <TextBlock x:Name="WtMC" Height="26" Margin="20,18,644,0" Text="Что такое MathCAD?" Style="{DynamicResource MouseELStyle}" />
+        <TextBlock x:Name="ExSim" Height="26" Margin="20,8,571,0" Text="Примеры простых вычислений" Style="{DynamicResource MouseELStyle}"/>
+        <TextBlock x:Name="CrMa" Height="26" Margin="20,8,516,0" Text="Создание математического выражения" Style="{DynamicResource MouseELStyle}"/>
+        <TextBlock x:Name="VaDef" Height="26" Margin="20,8,592,0" Text="Определение переменных" Style="{DynamicResource MouseELStyle}"/>
+        <TextBlock x:Name="FunDef" Height="26" Margin="20,8,615,0" Text="Определение функций" Style="{DynamicResource MouseELStyle}"/>
+        <TextBlock x:Name="RVaDef" Height="26" Margin="20,8,516,0" Text="Определение ранговых переменных" Style="{DynamicResource MouseELStyle}"/>
+        <TextBlock x:Name="VMDef" Height="26" Margin="20,8,555,0" Text="Определение векторов матриц" Style="{DynamicResource MouseELStyle}"/>
+        <TextBlock x:Name="SMDef" Height="26" Margin="20,8,516,0" Text="Операции с квадратными матрицами" Style="{DynamicResource MouseELStyle}"/>
+        <TextBlock x:Name="OFGr" Height="26" Margin="20,8,516,0" Text="Графики одноаргументных функций" Style="{DynamicResource MouseELStyle}"/>
+        <TextBlock x:Name="SovGr" Height="43" Margin="40,8,592,0" Text="Совмещение графиков нескольких функций" Style="{DynamicResource MouseELStyle}" TextWrapping="Wrap"/>
+        <TextBlock x:Name="EVGr" Height="43" Margin="40,8,592,0" Text="График, построенный по элементам вектора" Style="{DynamicResource MouseELStyle}" TextWrapping="Wrap"/>
+        <TextBlock x:Name="TwFGr" Height="26" Margin="20,8,430,0" Text="Построение графиков двухаргументных функций" Style="{DynamicResource MouseELStyle}"/>
+    </StackPanel>
+    
+        <Button x:Name="Go" Content="Button" Margin="0,5,6,481" Foreground="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" VerticalAlignment="Top" Height="30" Width="30" Opacity="0.5" MinWidth="0" MouseEnter="button_MouseEnter" MouseLeave="button_MouseLeave" Padding="0">
+            <Button.Background>
+                <ImageBrush ImageSource="next.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Back" Content="Button" Margin="0,6,50,481" Foreground="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" Width="30" MinWidth="0" MouseEnter="button_MouseEnter" MouseLeave="button_MouseLeave" Opacity="0.5">
+            <Button.Background>
+                <ImageBrush ImageSource="back.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+        

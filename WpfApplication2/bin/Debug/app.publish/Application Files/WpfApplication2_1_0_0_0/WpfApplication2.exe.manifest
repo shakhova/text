@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WpfApplication2.exe" version="1.0.0.0" publicKeyToken="e0a4096af6bbb874" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icong.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WpfApplication2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WpfApplication2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Elysium.dll" size="553688">
+      <assemblyIdentity name="Elysium" version="2.0.1042.4" publicKeyToken="AFA220DB249E5B15" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mMhGtxrMCCDvfYlQDcE/xz7OQVSwmpjQdf+tiwmaPAc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Elysium.Notifications.dll" size="26328">
+      <assemblyIdentity name="Elysium.Notifications" version="2.0.65.4" publicKeyToken="AFA220DB249E5B15" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aVuC3gl8gyQZkuexov5qHuAKNdG6z29GxmRO7/L+3aY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Expression.Drawing.dll" size="144456">
+      <assemblyIdentity name="Microsoft.Expression.Drawing" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1/lT8s7lVfy91fErpEA5R7xuY0ZNmTqXHU2Dix/dYWw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\Microsoft.Expression.Drawing.resources.dll" size="22176">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Jx98tqNbrQu6YsFdOg3Fqim19QFYPOn+CFi3/cS7MIk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Controls.Ribbon.dll" size="421896">
+      <assemblyIdentity name="System.Windows.Controls.Ribbon" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hls8RpWfkTjtT4HmjX4dHr1r5IJPYFv6Xoz2fMkZ51A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfApplication2.exe" size="1163776">
+      <assemblyIdentity name="WpfApplication2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5qxgZaItqIPIN3sLCLsgZActSuuSrNUQ9oA9YYyKGig=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icong.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mI8sgPbSTzleI32a2QnaLi7etjOVeuzZfPL9tgBBQH4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WpfApplication2.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Comp\Rыbka" issuerKeyHash="2c6b8cf89e012a96c0b1063fa20084b01df8420c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3i0OYXlrLzom74CwEI4/NNfty7Mr4uE/4gX3u9k6G9o=</DigestValue></Reference></SignedInfo><SignatureValue>hZe8UWhKcecwKihoUxMlg4nlagb3jTW7yNeSzhdgtLv1CNr/COpd6m1fRmlE9K8l/RtbEwKYrooJN7YJkEokKLAsQPSLi1RSFwTcY+H384ek4CzCo2uQ2YzkgGixedGmiwjz15aot823wiit+XASjSRaftBIuBkvYg7MakU1O5Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x4o4gh5AljEa2SnVcDydMQ5ZoDVX3MdQTx8c7+Kerk4MiA4F5ihLhXp0s/GXolGMYUk69VjTRUbn9WWaIgr7utTMadP5bjlNe82xtp47Fo6QQRhL83N2PJbYKC/PMDbUrtFrw6EmyOYzIH9Stf06Rm2Ex3hqERuCwqRV1Wfl6k8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="da1b3ad9bbf705e23fe1e22bb3cbedd7343f8e10b080ef263a2f6b79610e2dde" Description="" Url=""><as:assemblyIdentity name="WpfApplication2.exe" version="1.0.0.0" publicKeyToken="e0a4096af6bbb874" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Comp\Rыbka</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5QqzYTaTmJPpmC/SRAQbV2JBIE1nsOwkrBxJeLHR8lI=</DigestValue></Reference></SignedInfo><SignatureValue>VNZOp6nkjMcfcGZbeKTKViP2UyvqHLLPy2HesXJG/Ljr7qDgErMsFxTxK8BFqAWu8HbCVc1XZoBvgMQPr7WeHVTQe3R006d51tHhgRYOR+m4CP0ziE1Ef2GzWglZ+cBVabntyJQ50A+pfsM4OvgfKlhcYU6ZdsFyavkL0yaETHo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x4o4gh5AljEa2SnVcDydMQ5ZoDVX3MdQTx8c7+Kerk4MiA4F5ihLhXp0s/GXolGMYUk69VjTRUbn9WWaIgr7utTMadP5bjlNe82xtp47Fo6QQRhL83N2PJbYKC/PMDbUrtFrw6EmyOYzIH9Stf06Rm2Ex3hqERuCwqRV1Wfl6k8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQVAU3LWdsfZBKGBdZxG5ZcjANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAQwBvAG0AcABcAFIESwBiAGsAYTAeFw0xMzExMjUxOTI1NTNaFw0xNDExMjYwMTI1NTNaMB8xHTAbBgNVBAMeFABDAG8AbQBwAFwAUgRLAGIAawBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHijiCHkCWMRrZKdVwPJ0xDlmgNVfcx1BPHxzv4p6uTgyIDgXmKEuFenSz8ZeiUYxhSTr1WNNFRuf1ZZoiCvu61Mxp0/luOU17zbG2njsWjpBBGEvzc3Y8ltgoL88wNtSu0WvDoSbI5jMgf1K1/TpGbYTHeGoRG4LCpFXVZ+XqTwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGllCV3qiUhmD4DaPgLBc2dy+CKnlwtjOm3cZpYHoI3klSE37G8yDiq7qmuVJWdY9tfGVnLoVzPTxgUQWz4ujghj+2yefT0aSm2GiRkDvyCrN7K3/7Y2DTPDpvfpu2IK0rfr+DUPpDFQZ92ZItWrOn6FmYAozdCpTgkqGItefDjX</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

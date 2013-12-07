@@ -1,0 +1,42 @@
+﻿<Page x:Class="WpfApplication2.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       mc:Ignorable="d" Title="Page3" Height="490" Width="637">
+    <Page.Resources>
+        <Style x:Key="TextStyle">
+            <Setter Property="TextBlock.FontSize" Value="16"/>
+            <Setter Property="TextBlock.TextAlignment" Value="Justify"/>
+            <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+            <Setter Property="TextBlock.VerticalAlignment" Value="Top"/>
+        </Style>
+    </Page.Resources>
+    <ScrollViewer>
+        <Grid x:Name="WtMCG" Background="White">
+            <TextBlock HorizontalAlignment="Center" Margin="0,7,0,0"  Height="31" Width="295" Style="{DynamicResource TextStyle}" Foreground="#FF053E91"><Run Language="ru-ru" Text="Создание математического выражения"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,38,0,0" Height="46" Width="606" Style="{DynamicResource TextStyle}"><Run Text="   "/><Run Language="ru-ru" Text="Щелкните по красному крестику, расположив его в нужном месте окна. Обратите внимание на то, что получается, когда вы нажимаете клавишу пробела."/><LineBreak/><Run Text="  "/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,127,0,0" Height="23" Width="113" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Вы увидите:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,155,0,0" Height="26" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Когда вы первый раз нажали клавишу пробела произошло выделение уголком"/><Run Text=""/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,324,0,0" Height="66" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Когда вы нажали "/><Run Text="["/><Run Language="ru-ru" Text="пробел"/><Run Text="]"/><Run Language="ru-ru" Text=" второй раз, произошло выделение рамкой "/><Run Text="x  , "/><Run Language="ru-ru" Text="когда же вы набрали -1 обеспечилось вычитание единицы из полного выражения "/><Run Text="x "/><Run Language="ru-ru" Text=". Сравните с тем, что случилось бы при таком наборе:"/><Run Text=" "/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="38" Margin="0,84,0,0" VerticalAlignment="Top" Width="360" Source="pic2_1.jpg"/>
+            <Image HorizontalAlignment="Center" Height="34" Margin="95,397,291,0" VerticalAlignment="Top" Width="240" Source="pic2_5.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,434,0,0" Height="47" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Оператор возведения в степень используется также для извлечения корней, ссылок на примечания и пр. Создадим выражение:"/><LineBreak/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="33" Margin="0,175,0,0" VerticalAlignment="Top" Width="64" Source="pic2_3.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,213,0,0" Height="66" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Когда же вы набрали знак умножения, обеспечилось будущее перемножение этого выделенного выражения на выражение, которое будет введено далее. Если бы вы не нажали "/><Run Text="["/><Run Language="ru-ru" Text="пробел"/><Run Text="]"/><Run Language="ru-ru" Text=", то ошибочно получилось бы: "/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="42" Margin="0,277,0,0" VerticalAlignment="Top" Width="120" Source="pic2_4.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="557,324,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="607,345,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
+            <Image HorizontalAlignment="Left" Height="45" Margin="356,386,0,0" VerticalAlignment="Top" Width="168" Source="pic2_6.jpg"/>
+            <Image HorizontalAlignment="Center" Height="69" Margin="0,477,0,0" VerticalAlignment="Top" Width="76" Source="pic2_7.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,586,0,0" Height="47" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Убедитесь в том, что если бы мы не нажали "/><Run Text="["/><Run Language="ru-ru" Text="пробел"/><Run Text="]"/><Run Language="ru-ru" Text=" после набора +3, то получили бы иное:"/><LineBreak/></TextBlock>
+            <Image HorizontalAlignment="Left" Height="30" Margin="16,551,0,0" VerticalAlignment="Top" Width="305" Source="pic2_8.jpg"/>
+            <Image HorizontalAlignment="Center" Height="62" Margin="0,616,0,0" VerticalAlignment="Top" Width="75" Source="pic2_9.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,682,0,0" Height="24" Width="235" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Еще один пример. Наберите:"/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="31" Margin="0,706,0,0" VerticalAlignment="Top" Width="496" Source="pic2_10.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,742,0,0" Height="24" Width="177" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Должно получиться:"/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="108" Margin="0,761,0,0" VerticalAlignment="Top" Width="56" Source="pic2_11.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,857,0,0" Height="348" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   "/><Run FontWeight="Bold" Language="ru-ru" Text="Внимание! " TextDecorations="Underline"/><Run Language="ru-ru" Text="Если вам необходимо увеличить свободную от записей область на экране воспользуйтесь клавишами "/><Run FontStyle="Italic" Text="Ctrl"/><Run Language="ru-ru" Text=" и "/><Run FontStyle="Italic" Text="F"/><Run FontStyle="Italic" Language="ru-ru" Text="9"/><Run Language="ru-ru" Text=", нажимая их одновременно. Это приведет к увеличению пустого поля по высоте на одну строку. Пустые строки вставляются непрерывно, если клавиши остаются нажатыми."/><LineBreak/><Run Language="ru-ru" Text="   Наоборот, если вы хотите уменьшить высоту пространства между записями или выражениями, вам следует прибегнуть к одновременному нажатию клавиш "/><Run FontStyle="Italic" Text="Ctrl"/><Run Language="ru-ru" Text=" и"/><Run Text=" "/><Run FontStyle="Italic" Text="F10"/><Run Language="ru-ru" Text=". "/><LineBreak/><Run Language="ru-ru" Text="   Если вы хотите стереть какое-либо выражение нужно навести на него курсор мыши, щелкнуть и нажимать клавишу "/><Run Text="["/><Run Language="ru-ru" Text="пробел"/><Run Text="]"/><Run Language="ru-ru" Text=" до тех пор, пока выделяющая синяя рамка или синий уголок не охватят все выражение. Затем нужно щелкнуть по значку ножниц, расположенному на панели инструментов в верхней части экрана."/><LineBreak/><Run Language="ru-ru" Text="   Если вы хотите переместить выражение или текст в другое место на экране, щелкните по этому объекту, а далее продвигайте курсор мыши к одному из краев рамки выделения до появления значка, имеющего вид ладони. Нажмите левую кнопку мыши и вы сможете перемещать выделенный объект по экрану."/></TextBlock>
+        </Grid>
+    </ScrollViewer>
+</Page>

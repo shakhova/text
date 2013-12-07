@@ -1,0 +1,30 @@
+﻿<Page x:Class="WpfApplication2.Page8"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       mc:Ignorable="d" Title="Page8" Height="490" Width="637">
+    <Page.Resources>
+        <Style x:Key="TextStyle">
+            <Setter Property="TextBlock.FontSize" Value="16"/>
+            <Setter Property="TextBlock.TextAlignment" Value="Justify"/>
+            <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+            <Setter Property="TextBlock.VerticalAlignment" Value="Top"/>
+        </Style>
+    </Page.Resources>
+    <ScrollViewer>
+        <Grid x:Name="WtMCG" Background="White">
+            <TextBlock HorizontalAlignment="Center" Margin="0,7,0,0"  Height="31" Width="282" Style="{DynamicResource TextStyle}" Foreground="#FF053E91"><Run Language="ru-ru" Text="Операции с квадратными матрицами"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,38,0,0" Height="25" Width="606" Style="{DynamicResource TextStyle}"><Run Text="   "/><Run Language="ru-ru" Text="Создайте матрицу:"/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="121" Margin="0,68,0,0" VerticalAlignment="Top" Width="168" Source="pic7_1.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,487,0,0" Height="25" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Определитель:"/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="42" Margin="236,510,236,0" VerticalAlignment="Top" Width="154" Source="pic7_5.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,189,0,0" Height="25" Width="606" Style="{DynamicResource TextStyle}"><Run Text="   "/><Run Language="ru-ru" Text="Обратная матрица:"/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="113" Margin="0,210,0,0" VerticalAlignment="Top" Width="376" Source="pic7_3.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="20,328,0,0" Height="25" Width="606" Style="{DynamicResource TextStyle}"><Run Text="   "/><Run Language="ru-ru" Text="Транспорнированная матрица:"/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="124" Margin="0,358,0,0" VerticalAlignment="Top" Width="181" Source="pic7_4.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,552,0,0" Height="25" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Максимальное и минимальное значения:"/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="79" Margin="0,577,0,0" VerticalAlignment="Top" Width="128" Source="pic7_6.jpg"/>
+        </Grid>
+    </ScrollViewer>
+</Page>

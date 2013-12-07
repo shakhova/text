@@ -1,0 +1,32 @@
+﻿<Page x:Class="WpfApplication2.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" Title="Page1" Height="490" Width="637">
+    <Page.Resources>
+        <Style x:Key="TextStyle">
+            <Setter Property="TextBlock.FontSize" Value="16"/>
+            <Setter Property="TextBlock.TextAlignment" Value="Justify"/>
+            <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+            <Setter Property="TextBlock.VerticalAlignment" Value="Top"/>
+        </Style>
+    </Page.Resources>
+    <ScrollViewer>
+        <Grid x:Name="WtMCG" Background="White">
+            <TextBlock HorizontalAlignment="Center" Margin="237,7,234,0" Text="Что такое MathCAD?"  Height="31" Width="155" Style="{DynamicResource TextStyle}" Foreground="#FF053E91"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,38,0,0" Height="152" Width="606" Style="{DynamicResource TextStyle}"><Run Text="   MathCAD "/><Run Language="ru-ru" Text="является уникальной системой для работы с формулами, числами, текстами и графикой. Он столь же гибок, как самые мощные электронные таблицы и языки программирования, но легок в освоении и очень удобен в использовании."/><LineBreak/><Run Text="   "/><Run Language="ru-ru" Text="Формулы можно записывать на экране компьютера в их более привычном виде, чем на языке программирования или в электронной таблице. Пусть, например, требуется набрать исходное выражение:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,263,0,0" Height="23" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   "/><Run Text="Запись на неком языке программирования выглядела бы так:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,323,0,0" Height="45" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   "/><Run Text="В электронной таблице формула была бы записана в ячейку примерно в следующем виде:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,402,0,0" Height="23" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   "/><Run Text="В MathCAD та же формула выглядит более естественно:"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+            <Image HorizontalAlignment="Center" Height="63" Margin="0,195,0,0" VerticalAlignment="Top" Width="196" Source="pic1_1.jpg"/>
+            <Image HorizontalAlignment="Center" Height="27" Margin="0,291,0,0" VerticalAlignment="Top" Width="240" Source="pic1_2 copy.jpg"/>
+            <Image HorizontalAlignment="Center" Height="29" Margin="0,368,0,0" VerticalAlignment="Top" Width="252" Source="pic1_3.jpg"/>
+            <Image HorizontalAlignment="Center" Height="80" Margin="0,430,0,0" VerticalAlignment="Top" Width="222" Source="pic1_4.jpg"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,510,0,0" Height="364" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   Но формулы "/><Run Text="MathCAD "/><Run Language="ru-ru" Text="не только &quot;хорошо выглядят&quot;. С их помощью можно решить почти любую математическую задачу символьно (буквенный ответ), либо численно. Можно размащать комментарии и пояснительные тексты в любых местах в области формул, чтобы документировать процесс решения. Можно представлять информацию в виде двумерных и трехмерных графиков,можно вводить иллюстрации и тексты, созданные в других приложениях"/><Run Text=" Windows."/><LineBreak/><Run Text="   MathCAD "/><Run Language="ru-ru" Text="имеет свою собственную справочную систему (на английском языке)."/><LineBreak/><Run Language="ru-ru" Text="   Объединяя на одном рабочем листе текст, графику и математические выкладки, "/><Run Text="MathCAD "/><Run Language="ru-ru" Text="облегчает понимание самых сложных вычислений. Печатая рабочие документы на бумаге точно в таком же виде, как они выглядят на экране, "/><Run Text="MathCAD "/><Run Language="ru-ru" Text="обеспечивать аккуратную запись хода работ."/><LineBreak/><Run Language="ru-ru" Text="   Формулы могут располагаться в любом месте рабочего документа "/><Run Text="MathCAD"/><Run Language="ru-ru" Text=". Чтобы подвести курсор к нужному месту, не видимому в настоящий момент в окне, нужно использовать общепринятые в приложениях "/><Run Text="Windows "/><Run Language="ru-ru" Text="полосы прокрутки."/><LineBreak/><Run Language="ru-ru" Text="  "/><Run Text=" "/><Run Language="ru-ru" Text="После запуска "/><Run Text="MathCAD "/><Run Language="ru-ru" Text="на экране появляется рабочее окно:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,1120,0,0" Height="68" Width="606" Style="{DynamicResource TextStyle}"><Run Language="ru-ru" Text="   В правой части окна располагается &quot;палитра&quot; Математика, которую можно за ненадобостью удалить, либо с помощью мыши переместить в любую область окна. На палитре расположены следующие значки:"/></TextBlock>
+            <Image HorizontalAlignment="Center" Margin="0,879,0,247" Width="561" Source="pic1_5.jpg" VerticalAlignment="Center" Height="223"/>
+            <Image HorizontalAlignment="Center" Height="161" Margin="90,0,80,2" VerticalAlignment="Bottom" Width="456" Source="pic1_6.jpg"/>
+        </Grid>
+    </ScrollViewer>
+</Page>
